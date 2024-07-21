@@ -1,0 +1,111 @@
+h1{
+    
+    text-align: center;
+    font-size: 3em;
+    background-color: aqua;
+}
+div{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(213, 221, 221);
+    border: 2px solid black;
+    display: inline-block;
+    background-color: pink;}
+    @media (width : 500px) 
+    {
+        div {
+        background-color : red;
+        }
+    }
+    @media (min-width : 400px) 
+    {
+        div {
+        background-color : rgb(0, 55, 255);
+        }
+    }
+    @media (max-width : 600px) 
+    {
+        div {
+        background-color : red;
+     
+        }
+     }
+    @media (min-width : 200px) and (max-width : 300px) 
+    {
+        div {
+        background-color : rgb(30, 237, 92);
+        }
+    }
+    
+  
+
+#container{
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+
+  
+
+    
+
+}
+#one{
+    background-color: red;
+    align-content:center;
+   
+}
+#two{
+    background-color: blue;
+    align-items:end;
+}
+#three{
+    background-color: yellow;
+    flex: grow 4;;
+
+}
+#four{
+    background-color: green;
+    flex:auto;
+}
+#five{
+    background-color: rgb(239, 35, 185);
+    flex-shrink:3;
+}
+
+.navbar{
+    display: block;
+   
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    background-color: pink;
+   
+}
+a{
+    text-decoration: none;
+    color:red;
+    
+}
+li{
+    list-style-type: none;
+
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}

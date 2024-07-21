@@ -1,0 +1,57 @@
+body{
+    background-image: url(buterfluy.jpg);
+    background-size: cover;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: aqua;
+    border: 1px solid #0a0909;
+    display: inline-block;
+    
+    
+}
+
+  #first {
+    position: static;
+    background-color: rgba(255, 0, 0, 0.5);
+    background-image: url(dear.jpg);
+    background-size:contain;
+  }
+  
+  #sec {
+    position: relative;
+    top: 20px;
+    left: 190px;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+  
+ #th {
+    position: absolute;
+    top: 70px;
+    left: 80px ;
+    
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+  
+#for {
+    position: fixed;
+    bottom: 0;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+    
+    background-color: rgba(255, 255, 0, 0.5);
+    background-image: url(lion.jpg);
+    background-size: cover;
+  }
+  
+  #fifth {
+    position: sticky;
+  top:40px;
+  right: 100px;
+    background-color: rgba(245, 51, 100, 0.5);
+}
+  
+ 

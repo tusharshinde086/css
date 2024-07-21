@@ -1,0 +1,57 @@
+div{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+     align-items: center;
+    background-color: aqua;
+    color: red;
+    border: 2px solid black;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 1s;
+    transition: all 1s ease-in 2s;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation:colorchange 2s ease-in 0.2 infinite alternate;
+}
+@keyframes colorchange {
+    from{
+        background-color: aqua;
+        left: 100px;
+
+    }
+    to{background-color: crimson;
+    left: 300px;
+    top:300px;
+    width: 200px;
+    height: 200px;
+}
+    
+}
+div:hover{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    color: white;
+    transform: rotate(45deg);
+    transform: scaleX(2);
+    transform: translate(250px);
+}
+div:active{
+       width: 200px;
+       height: 200px;
+       background-color: rgb(255, 255, 0);
+       color: chartreuse;
+     
+       transform: skew(45deg);
+1
+}
